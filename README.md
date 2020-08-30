@@ -33,6 +33,7 @@ User is able to:
  3. Models (DTO)
  4. Profiles (mapping entities and DTOs)
  5. Controllers (CRUD operations on entities)
+ 6. Tools (Logger)
 
 ----------
 **Design patterns**
