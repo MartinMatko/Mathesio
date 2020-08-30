@@ -5,6 +5,7 @@
 
 
 **How to use**
+
 Profile IIS Express launches project on URL http://localhost:54189.
 The database is deleted and recreated on each start with dummy data from InternetDiscussionContext.
 Logger output is shown on the console window.
@@ -14,6 +15,7 @@ https://github.com/MartinMatko/Mathesio/blob/master/Matthesio.postman_collection
 ----------
 
 **Implemented functionality**
+
 Entities in applications are author, the topic of discussion and reply to the given topic.
 I implemented only creating and retrieving of author and topic because it's enough for demonstrating architecture and design patterns I would use for the whole app.
 User is able to:
@@ -28,6 +30,7 @@ User is able to:
 ----------
 **Project structure**
 
+
  1. DbContexts (a bridge between domain entities and the database)
  2. Entities (domain entities Author, Topic)
  3. Services (Repository for DAL)
@@ -37,6 +40,7 @@ User is able to:
 
 ----------
 **Design patterns**
+
 
  1. Singleton for logger (dependency injection would be too cumbersome for the bigger app)
  2. Lazy initialization for logger instance (creating instance only when it is truly needed)
