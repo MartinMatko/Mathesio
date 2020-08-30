@@ -1,9 +1,5 @@
 # Internet discussion demo app
 
-
-----------
-
-
 **How to use**
 
 Profile IIS Express launches project on URL http://localhost:54189.
